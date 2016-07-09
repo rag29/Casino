@@ -49,7 +49,6 @@ public class RollDice_Animations1 : MonoBehaviour {
 
 		if (playIt && !keep_this) 
 		{
-			print ("1-1");
 			rand_int = Mathf.CeilToInt(Random.Range(1,6));
 			anim.SetInteger ("PlayNum", rand_int);
 			playIt = false;
@@ -58,12 +57,10 @@ public class RollDice_Animations1 : MonoBehaviour {
 		else if (GameState.switch_cam && !keep_this) 
 		{
 			if (GameState.t1 > 1.5f) {
-				print ("1-2");
 				rand_int = Mathf.CeilToInt (Random.Range (1, 6));
 				anim.SetInteger ("PlayNum", rand_int);
 
 			} else {
-				print ("1-3");
 				anim.SetInteger ("PlayNum", 0);
 			}
 

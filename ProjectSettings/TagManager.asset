@@ -15,6 +15,19 @@ TagManager:
   - d3
   - d4
   - d5
+  - ones
+  - twos
+  - threes
+  - fours
+  - fives
+  - sixes
+  - 3kind
+  - 4kind
+  - fullhouse
+  - smst
+  - lgst
+  - yahtzee
+  - chance
   layers:
   - Default
   - TransparentFX
