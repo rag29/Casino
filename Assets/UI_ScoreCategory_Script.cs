@@ -22,6 +22,8 @@ public class UI_ScoreCategory_Script : MonoBehaviour, IPointerEnterHandler, IPoi
 	int five_count;
 	int six_count;
 
+	int yahtzee_count;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -53,6 +55,8 @@ public class UI_ScoreCategory_Script : MonoBehaviour, IPointerEnterHandler, IPoi
 		four_count = 0;
 		five_count = 0;
 		six_count = 0;
+
+		yahtzee_count = 0;
 	}
 	
 	// Update is called once per frame
@@ -421,6 +425,46 @@ public class UI_ScoreCategory_Script : MonoBehaviour, IPointerEnterHandler, IPoi
 			//----------------------------------------------------------------------------------YAHTZEE--------------------------------------------------------------------------------------------------------------------------------------------------------------
 		case "yahtzee":
 			
+			foreach (int i in dice) {
+				switch (i) {
+				case 1:
+					one_count += 1;
+					break;
+				case 2:
+					two_count += 1;
+					break;
+				case 3:
+					three_count += 1;
+					break;
+				case 4:
+					four_count += 1;
+					break;
+				case 5:
+					five_count += 1;
+					break;
+				case 6:
+					six_count += 1;
+					break;
+				}
+			}
+
+			if (one_count == 5 || two_count == 5 || three_count == 5 || four_count == 5 || five_count == 5 || six_count == 5) {
+				foreach (int i in dice) {
+					GameState.yahtzee = true;
+					yahtzee_count++;
+					total_category_score += 50;
+				}
+			}
+			//add the total category score to the totall overall score
+
+			one_count = 0;
+			two_count = 0;
+			three_count = 0;
+			four_count = 0;
+			five_count = 0;
+
+			total_score_overall += total_category_score;
+			print (total_category_score);
 			break;
 		}
 	}

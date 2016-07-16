@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UI_ScoreCategory_Script.cs">
     <Files>
-      <File FileName="Assets\UI_ScoreCategory_Script.cs" Line="365" Column="4" />
-      <File FileName="Assets\RollDice_Animations5.cs" Line="64" Column="12" />
-      <File FileName="Assets\UIControl.cs" Line="15" Column="3" />
-      <File FileName="Assets\GameState.cs" Line="1" Column="1" />
-      <File FileName="Assets\RollDice_Animations1.cs" Line="51" Column="4" />
-      <File FileName="Assets\RollDice_Animations2.cs" Line="54" Column="4" />
-      <File FileName="Assets\RollDice_Animations3.cs" Line="52" Column="4" />
-      <File FileName="Assets\RollDice_Animations4.cs" Line="52" Column="4" />
+      <File FileName="Assets\UI_ScoreCategory_Script.cs" Line="453" Column="17" />
+      <File FileName="Assets\RollDice_Animations5.cs" Line="1" Column="1" />
+      <File FileName="Assets\UIControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameState.cs" Line="142" Column="4" />
+      <File FileName="Assets\RollDice_Animations1.cs" Line="1" Column="1" />
+      <File FileName="Assets\RollDice_Animations2.cs" Line="1" Column="1" />
+      <File FileName="Assets\RollDice_Animations3.cs" Line="1" Column="1" />
+      <File FileName="Assets\RollDice_Animations4.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

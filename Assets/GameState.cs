@@ -41,6 +41,8 @@ public class GameState : MonoBehaviour {
 
 	bool score_timer_count_up;
 
+	public static bool yahtzee;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -72,6 +74,8 @@ public class GameState : MonoBehaviour {
 		score_timer = 0;
 
 		score_timer_count_up = false;
+
+		yahtzee = false;
 	}
 	
 	// Update is called once per frame
@@ -129,9 +133,13 @@ public class GameState : MonoBehaviour {
 			score_timer_count_up = true;
 			//need to load the level where you can select your category
 			canvas.enabled = false;
-			if (score_timer > 10f) {
+			if (score_timer > 5.5f) {
 				SceneManager.LoadScene ("Scene2");
 			}
+		}
+
+		if (yahtzee) {
+			
 		}
 
 

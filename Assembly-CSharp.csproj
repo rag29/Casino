@@ -50,6 +50,19 @@
      <Compile Include="Assets\GameState.cs" />
      <Compile Include="Assets\GetNumRolled.cs" />
      <Compile Include="Assets\GetRidOfCols.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\AnimatedUVs.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\FPSWalker.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\FlashLight.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\Laser.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\LaserGun.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\LaserHandler2.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\LaserImpact.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\LightScript.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\ReactorRingRotate.cs" />
+     <Compile Include="Assets\IndieGlow\PreviewScene\Scripts\TransformInfluence.cs" />
+     <Compile Include="Assets\IndieGlow\Scripts\GlowCamera\GlowCamera.cs" />
+     <Compile Include="Assets\IndieGlow\Scripts\GlowObject\GlowObject.cs" />
      <Compile Include="Assets\RollDice_Animations1.cs" />
      <Compile Include="Assets\RollDice_Animations2.cs" />
      <Compile Include="Assets\RollDice_Animations3.cs" />
@@ -58,6 +71,16 @@
      <Compile Include="Assets\SelectDiceToKeepScript.cs" />
      <Compile Include="Assets\UIControl.cs" />
      <Compile Include="Assets\UI_ScoreCategory_Script.cs" />
+     <None Include="Assets\IndieGlow\Shaders\GlowCameraDisplayGlow_Base.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Default_UV_Animated_Ranged.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowCameraHalf_Base.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Default_Ranged.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Particle_Ranged.shader" />
+     <None Include="Assets\IndieGlow\PreviewScene\SceneShader\BumpedSpecular_UnlitLayer.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Fluid_Ranged.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Pulse_Ranged.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowMaskShader_Default_UV_Animated_Pulse_Ranged.shader" />
+     <None Include="Assets\IndieGlow\Shaders\GlowCamera_Base.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

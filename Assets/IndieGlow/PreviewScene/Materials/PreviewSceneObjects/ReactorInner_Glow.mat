@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ReactorInner_Glow
+  m_Shader: {fileID: 4800000, guid: d206cbbb2c063f9448025bca07378951, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4af62066b5489484eb073f15495731b3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Layer_1_Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: d1251f8c3dffb7c4eb00eaacf446ccbf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Layer_2_Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 68d2d3fb4ce6bb44f9f669c22d2fb9ac, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Layer_3_Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: a201fe8bdfb45664b88156a5e6d4f52f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _GlowStrength
+        second: 1
+      data:
+        first:
+          name: _GlowRange
+        second: 50
+      data:
+        first:
+          name: _Layer_1_TileX
+        second: 1
+      data:
+        first:
+          name: _Layer_1_TileY
+        second: 1
+      data:
+        first:
+          name: _Layer_1_Intensity
+        second: 0.016432837
+      data:
+        first:
+          name: _Layer_1_Rate
+        second: 19.402987
+      data:
+        first:
+          name: _Layer_1_ScrollX
+        second: 0.47761193
+      data:
+        first:
+          name: _Layer_1_ScrollY
+        second: -0.47761193
+      data:
+        first:
+          name: _Layer_2_TileX
+        second: 4
+      data:
+        first:
+          name: _Layer_2_TileY
+        second: 4
+      data:
+        first:
+          name: _Layer_2_Intensity
+        second: 0.003
+      data:
+        first:
+          name: _Layer_2_Rate
+        second: 19.402985
+      data:
+        first:
+          name: _Layer_2_ScrollX
+        second: -0.6865672
+      data:
+        first:
+          name: _Layer_2_ScrollY
+        second: 0
+      data:
+        first:
+          name: _Layer_3_TileX
+        second: 1
+      data:
+        first:
+          name: _Layer_3_TileY
+        second: 1
+      data:
+        first:
+          name: _Layer_3_Intensity
+        second: 0.015686568
+      data:
+        first:
+          name: _Layer_3_Rate
+        second: 44.77612
+      data:
+        first:
+          name: _Layer_3_ScrollX
+        second: -1.0447761
+      data:
+        first:
+          name: _Layer_3_ScrollY
+        second: 0.7164179
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Layer_1_Color
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Layer_2_Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Layer_3_Color
+        second: {r: 1, g: 1, b: 1, a: 1}
